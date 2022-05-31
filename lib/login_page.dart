@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_app/home_page.dart';
 import 'package:new_app/register.dart';
 
 class LoginPage extends StatelessWidget {
@@ -106,9 +107,7 @@ class LoginPage extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const register(
-                                      obsureText: true,
-                                    )),
+                                builder: (context) => const Home()),
                           );
                         },
                         child: Text("Login"),
