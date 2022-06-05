@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_app/drawerlist.dart/chiya.dart';
 import 'package:new_app/main.dart';
 import 'package:new_app/my_icons_icons.dart';
 
@@ -35,7 +36,10 @@ class MyDrawer extends StatelessWidget {
               "Chiya/Tea",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => Chiya()));
+            },
           ),
           SizedBox(
             height: 10,
