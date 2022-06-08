@@ -3,6 +3,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:new_app/alertdialog.dart';
 import 'package:new_app/bottomnav.dart';
 import 'package:new_app/drawer.dart';
+import 'package:new_app/drawerlist.dart/chiya.dart';
 import 'package:new_app/drawerlist.dart/size.dart';
 import 'package:new_app/drawerlist.dart/sugar.dart';
 import 'package:new_app/home_page.dart';
@@ -10,8 +11,8 @@ import 'package:new_app/login_page.dart';
 import 'package:new_app/my_icons_icons.dart';
 import 'package:new_app/my_icons_icons.dart';
 
-class Chiya extends StatelessWidget {
-  const Chiya({Key? key}) : super(key: key);
+class Expresso extends StatelessWidget {
+  const Expresso({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +33,7 @@ class Chiya extends StatelessWidget {
                 icon: Icon(Icons.logout))
           ],
           title: Text(
-            "Chiya/Tea",
+            "EXPRESSO",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 20,
@@ -69,7 +70,7 @@ class Chiya extends StatelessWidget {
                   //       color: Colors.black),
                   // ),
                   Icon(
-                    MyIcons.tea,
+                    MyIcons.expres1,
                     size: 200,
                   ),
                   SizedBox(
@@ -91,7 +92,7 @@ class Chiya extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                "CHIYA/TEA",
+                                "Expresso",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontWeight: FontWeight.w800,
@@ -102,7 +103,7 @@ class Chiya extends StatelessWidget {
                                 height: 5,
                               ),
                               Text(
-                                "Rs. 25",
+                                "Rs. 120",
                                 style: TextStyle(
                                     color: Color.fromARGB(255, 168, 103, 80),
                                     fontWeight: FontWeight.w700,
@@ -142,19 +143,19 @@ class Chiya extends StatelessWidget {
                                         tabs: [
                                           Tab(
                                             icon: Icon(
-                                              MyIcons.tea,
+                                              MyIcons.expres1,
                                               size: 20,
                                             ),
                                           ),
                                           Tab(
                                             icon: Icon(
-                                              MyIcons.tea,
+                                              MyIcons.expres1,
                                               size: 28,
                                             ),
                                           ),
                                           Tab(
                                             icon: Icon(
-                                              MyIcons.tea,
+                                              MyIcons.expres1,
                                               size: 35,
                                             ),
                                           ),

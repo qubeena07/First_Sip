@@ -40,7 +40,7 @@ class register extends StatelessWidget {
                 width: 350,
                 height: 500,
                 decoration: BoxDecoration(
-                  color: Colors.white60,
+                  color: Color.fromARGB(153, 224, 224, 224),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Column(
@@ -113,27 +113,6 @@ class register extends StatelessWidget {
                       child: ElevatedButton(
                         onPressed: () {
                           showAlertDialog(context);
-                          // Navigator.push(
-                          //     context,
-                          //     MaterialPageRoute(
-                          //         builder: (context) =>
-                          //             LoginPage(obscureText: true)));
-
-                          // child:
-                          // AlertDialog(
-                          //   title: Text("Your account has been registered"),
-                          //   actions: <Widget>[
-                          //     FlatButton(
-                          //         onPressed: () {
-                          //           Navigator.push(
-                          //               context,
-                          //               MaterialPageRoute(
-                          //                   builder: (context) =>
-                          //                       LoginPage(obscureText: true)));
-                          //         },
-                          //         child: Text("OK"))
-                          //   ],
-                          // );
                         },
                         child: Text(
                           "Register",

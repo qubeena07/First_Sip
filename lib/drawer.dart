@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:new_app/drawerlist.dart/cappuccino.dart';
 import 'package:new_app/drawerlist.dart/chiya.dart';
+import 'package:new_app/drawerlist.dart/expresso.dart';
+import 'package:new_app/drawerlist.dart/hotlemon.dart';
+import 'package:new_app/drawerlist.dart/latte.dart';
+
+import 'package:new_app/drawerlist.dart/mocha.dart';
 import 'package:new_app/main.dart';
 import 'package:new_app/my_icons_icons.dart';
 
@@ -51,7 +57,10 @@ class MyDrawer extends StatelessWidget {
               "Expresso",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => Expresso()));
+            },
           ),
           SizedBox(
             height: 10,
@@ -63,7 +72,10 @@ class MyDrawer extends StatelessWidget {
               "Cappuccino",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushReplacement(context,
+                  MaterialPageRoute(builder: (context) => Cappuccino()));
+            },
           ),
           SizedBox(
             height: 10,
@@ -75,7 +87,10 @@ class MyDrawer extends StatelessWidget {
               "Mocha",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => Mocha()));
+            },
           ),
           SizedBox(
             height: 10,
@@ -87,7 +102,10 @@ class MyDrawer extends StatelessWidget {
               "Latte",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => Latte()));
+            },
           ),
           SizedBox(
             height: 10,
@@ -99,7 +117,10 @@ class MyDrawer extends StatelessWidget {
               "Hot Lemon",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => HotLemon()));
+            },
           )
         ],
       ),

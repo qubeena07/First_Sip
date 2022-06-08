@@ -3,15 +3,11 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:new_app/alertdialog.dart';
 import 'package:new_app/bottomnav.dart';
 import 'package:new_app/drawer.dart';
-import 'package:new_app/drawerlist.dart/size.dart';
-import 'package:new_app/drawerlist.dart/sugar.dart';
-import 'package:new_app/home_page.dart';
 import 'package:new_app/login_page.dart';
 import 'package:new_app/my_icons_icons.dart';
-import 'package:new_app/my_icons_icons.dart';
 
-class Chiya extends StatelessWidget {
-  const Chiya({Key? key}) : super(key: key);
+class Cappuccino extends StatelessWidget {
+  const Cappuccino({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +28,7 @@ class Chiya extends StatelessWidget {
                 icon: Icon(Icons.logout))
           ],
           title: Text(
-            "Chiya/Tea",
+            "CAPPUCCINO",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 20,
@@ -69,7 +65,7 @@ class Chiya extends StatelessWidget {
                   //       color: Colors.black),
                   // ),
                   Icon(
-                    MyIcons.tea,
+                    MyIcons.capp,
                     size: 200,
                   ),
                   SizedBox(
@@ -91,7 +87,7 @@ class Chiya extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
                               Text(
-                                "CHIYA/TEA",
+                                "Cappuccino",
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontWeight: FontWeight.w800,
@@ -102,7 +98,7 @@ class Chiya extends StatelessWidget {
                                 height: 5,
                               ),
                               Text(
-                                "Rs. 25",
+                                "Rs. 180",
                                 style: TextStyle(
                                     color: Color.fromARGB(255, 168, 103, 80),
                                     fontWeight: FontWeight.w700,
@@ -142,19 +138,19 @@ class Chiya extends StatelessWidget {
                                         tabs: [
                                           Tab(
                                             icon: Icon(
-                                              MyIcons.tea,
+                                              MyIcons.capp,
                                               size: 20,
                                             ),
                                           ),
                                           Tab(
                                             icon: Icon(
-                                              MyIcons.tea,
+                                              MyIcons.capp,
                                               size: 28,
                                             ),
                                           ),
                                           Tab(
                                             icon: Icon(
-                                              MyIcons.tea,
+                                              MyIcons.capp,
                                               size: 35,
                                             ),
                                           ),
@@ -193,45 +189,6 @@ class Chiya extends StatelessWidget {
                                         size: 8,
                                       ),
                                   onRatingUpdate: (rating) {}),
-                              // Container(
-                              //   width: 205,
-                              //   height: 30,
-                              //   decoration: BoxDecoration(
-                              //     color: Colors.white60,
-                              //     borderRadius: BorderRadius.circular(15),
-                              //   ),
-                              //   child: TabBar(
-                              //       indicator: BoxDecoration(
-                              //           color:
-                              //               Color.fromARGB(255, 168, 103, 80),
-                              //           borderRadius:
-                              //               BorderRadius.circular(15)),
-                              //       labelColor: Colors.black,
-                              //       unselectedLabelColor: Colors.white,
-                              //       tabs: [
-                              //         Tab(
-                              //           text: "One",
-                              //           // icon: Icon(
-                              //           //   Icons.square,
-                              //           //   size: 20,
-                              //           // ),
-                              //         ),
-                              //         Tab(
-                              //           text: "Two",
-                              //           // icon: Icon(
-                              //           //   Icons.square,
-                              //           //   size: 28,
-                              //           // ),
-                              //         ),
-                              //         Tab(
-                              //           text: "Three",
-                              //           // icon: Icon(
-                              //           //   Icons.square,
-                              //           //   size: 35,
-                              //           // ),
-                              //         ),
-                              //       ]),
-                              // ),
                               SizedBox(
                                 height: 10,
                               ),

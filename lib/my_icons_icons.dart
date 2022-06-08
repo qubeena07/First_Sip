@@ -38,3 +38,4 @@ class MyIcons {
   static const IconData tea =
       IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
+
